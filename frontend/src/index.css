@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 * {
@@ -6,9 +7,20 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #f8fafc;
-  font-family: "Inter", sans-serif;
+  color: #0f172a;
+  font-family: 'Livvic', ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
 }
 
 #root {
