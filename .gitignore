@@ -1,0 +1,10 @@
+# Runtime files
+backend/uploads/
+backend/data/
+
+# Test files
+sample.pdf
+
+# Build folders
+backend/target/
+frontend/node_modules/
